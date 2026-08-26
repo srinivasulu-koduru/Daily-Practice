@@ -65,7 +65,7 @@ However, it's still optimal to buy only the first item rather than buy any two o
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T15:05:54.396Z  
+**Submitted:** 2026-08-26T15:04:34.403Z  
 
 ```java
 import java.util.*;
