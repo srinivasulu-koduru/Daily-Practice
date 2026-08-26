@@ -17,7 +17,7 @@ class Codechef
 		    {
 		        arr[i]=sc.nextInt();
 		    }
-		    int max=arr[0];
+		    int max=-1;
 		    for(int i=0;i<n;i++)
 		    {
 		        for(int j=i+1;j<n;j++)
