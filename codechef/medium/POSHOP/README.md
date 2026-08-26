@@ -65,7 +65,7 @@ However, it's still optimal to buy only the first item rather than buy any two o
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T15:09:43.397Z  
+**Submitted:** 2026-08-26T15:16:59.944Z  
 
 ```java
 import java.util.*;
@@ -77,7 +77,29 @@ class Codechef
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-		
+		Scanner sc=new Scanner(System.in);
+		int t=sc.nextInt();
+		while(t-->0)
+		{
+		    int n=sc.nextInt();
+		    int arr[]=new int[n];
+		    for(int i=0;i<n;i++)
+		    {
+		        arr[i]=sc.nextInt();
+		    }
+		    int max=arr[0];
+		    for(int i=0;i<n;i++)
+		    {
+		        for(int j=i+1;j<n;j++)
+		        {
+		            if(arr[i]<arr[j]&&arr[i]+arr[j]>max)
+		            {
+		                max=arr[i]+arr[j];
+		            }
+		        }
+		    }
+		    System.out.println(max);
+		}
 
 	}
 }
