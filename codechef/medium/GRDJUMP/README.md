@@ -65,7 +65,7 @@ For the given costs, this is optimal.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T15:33:09.830Z  
+**Submitted:** 2026-08-26T15:36:56.825Z  
 
 ```java
 import java.util.*;
