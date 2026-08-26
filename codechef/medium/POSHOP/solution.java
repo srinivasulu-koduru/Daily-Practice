@@ -24,7 +24,7 @@ class Codechef
 		            max=arr[i];
 		        for(int j=i+1;j<n;j++)
 		        {
-		            if(arr[i]<arr[j]&&arr[i]+arr[j]>max)
+		            if(arr[i]<=arr[j]&&arr[i]+arr[j]>max)
 		            {
 		                max=arr[i]+arr[j];
 		            }
