@@ -77,19 +77,26 @@ Today is day $49$. The next deep cleaning will be on day $50$, so the answer is 
 
 ## Solution
 
-**Language:** c_cpp  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T14:58:03.726Z  
+**Submitted:** 2026-08-26T15:00:51.884Z  
 
-```c_cpp
-#include <stdio.h>
+```java
+import java.util.*;
+import java.lang.*;
+import java.io.*;
 
-int main() {
-	// your code goes here
-
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        System.out.println(Math.abs(n%10-10));
+	}
 }
-
 
 ```
 
