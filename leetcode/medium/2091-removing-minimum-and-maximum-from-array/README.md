@@ -1,0 +1,107 @@
+# Removing Minimum and Maximum From Array
+
+![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow)
+
+## Problem
+
+You are given a  **0-indexed**  array of  **distinct**  integers `nums`.
+
+There is an element in `nums` that has the  **lowest**  value and an element that has the  **highest**  value. We call them the  **minimum**  and  **maximum**  respectively. Your goal is to remove  **both**  these elements from the array.
+
+A  **deletion**  is defined as either removing an element from the  **front**  of the array or removing an element from the  **back**  of the array.
+
+Return  *the  **minimum**  number of deletions it would take to remove  **both**  the minimum and maximum element from the array.* 
+
+ 
+
+ **Example 1:** 
+
+```
+Input: nums = [2,10,7,5,4,1,8,6]
+Output: 5
+Explanation: 
+The minimum element in the array is nums[5], which is 1.
+The maximum element in the array is nums[1], which is 10.
+We can remove both the minimum and maximum by removing 2 elements from the front and 3 elements from the back.
+This results in 2 + 3 = 5 deletions, which is the minimum number possible.
+
+```
+
+ **Example 2:** 
+
+```
+Input: nums = [0,-4,19,1,8,-2,-3,5]
+Output: 3
+Explanation: 
+The minimum element in the array is nums[1], which is -4.
+The maximum element in the array is nums[2], which is 19.
+We can remove both the minimum and maximum by removing 3 elements from the front.
+This results in only 3 deletions, which is the minimum number possible.
+
+```
+
+ **Example 3:** 
+
+```
+Input: nums = [101]
+Output: 1
+Explanation:  
+There is only one element in the array, which makes it both the minimum and maximum element.
+We can remove it with 1 deletion.
+
+```
+
+ 
+
+ **Constraints:** 
+
+- 1 <= nums.length <= 105
+- -105 <= nums[i] <= 105
+- The integers in nums are distinct.
+
+## Solution
+
+**Language:** Java  
+**Runtime:** 2 ms (beats 100.00%)  
+**Memory:** 86.8 MB (beats 23.09%)  
+**Submitted:** 2026-08-30T06:29:13.776Z  
+
+```java
+class Solution {
+    public int minimumDeletions(int[] nums) {
+        if(nums.length==1) return 1;
+        int min=Integer.MAX_VALUE;
+        int max=Integer.MIN_VALUE;
+        int index1=0;
+        int index2=0;
+        for(int i=0;i<nums.length;i++)
+        {
+            if(nums[i]>max)
+            {
+                max=nums[i];
+                index1=i;
+            }
+            if(nums[i]<min)
+            {
+                min=nums[i];
+                index2=i;
+            }
+        }
+        int r=Integer.MAX_VALUE;
+        int n=nums.length;
+        if(Math.max(index1,index2)+1<r)
+            r=Math.max(index1,index2)+1;
+        if(n-Math.min(index1,index2)<r)
+            r=n-Math.min(index1,index2);
+        if((index1+1)+(n-index2)<r)
+            r=index1+1+(n-index2);
+        if((index2+1)+(n-index1)<r)
+            r=index2+1+(n-index1);
+        return r;
+    }
+}
+```
+
+---
+
+[View on LeetCode](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/)
