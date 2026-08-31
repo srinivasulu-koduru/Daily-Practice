@@ -62,9 +62,9 @@ We can remove it with 1 deletion.
 ## Solution
 
 **Language:** Java  
-**Runtime:** 2 ms (beats 100.00%)  
-**Memory:** 86.8 MB (beats 23.09%)  
-**Submitted:** 2026-08-30T06:29:13.776Z  
+**Runtime:** 3 ms (beats 62.18%)  
+**Memory:** 86.9 MB (beats 22.55%)  
+**Submitted:** 2026-08-31T17:52:21.008Z  
 
 ```java
 class Solution {
