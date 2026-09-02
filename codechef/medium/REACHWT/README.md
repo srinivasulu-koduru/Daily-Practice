@@ -52,13 +52,29 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-02T14:53:32.890Z  
+**Submitted:** 2026-09-02T14:58:23.902Z  
 
 ```c_cpp
 #include <stdio.h>
 
 int main() {
 	// your code goes here
+	int t;
+	scanf("%d",&t);
+	while(t-->0)
+	{
+	    int n;
+	    scanf("%d",&n);
+	    int w=0;
+	    while(n>=2)
+	    {
+	        w+=30;
+	        n%=2;
+	    }
+	    if(n==1)
+	        w+=20;
+	   printf("%d\n",w);
+	}
 
 }
 
