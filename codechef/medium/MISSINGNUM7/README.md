@@ -52,24 +52,22 @@ Output
 
 ## Solution
 
-**Language:** Java  
+**Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-02T14:50:17.494Z  
+**Submitted:** 2026-09-02T14:52:18.622Z  
 
-```java
-import java.util.*;
-import java.lang.*;
-import java.io.*;
+```c_cpp
+#include <stdio.h>
 
-class Codechef
-{
-	public static void main (String[] args) throws java.lang.Exception
-	{
-		// your code goes here
+int main() {
+	// your code goes here
+	int s;
+	scanf("%d",&s);
+	printf("%d",10-s);
 
-	}
 }
+
 
 ```
 
