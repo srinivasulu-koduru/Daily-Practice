@@ -2,6 +2,22 @@
 
 int main() {
 	// your code goes here
+	int t;
+	scanf("%d",&t);
+	while(t-->0)
+	{
+	    int n;
+	    scanf("%d",&n);
+	    int w=0;
+	    while(n>=2)
+	    {
+	        w+=30;
+	        n%=2;
+	    }
+	    if(n==1)
+	        w+=20;
+	   printf("%d\n",w);
+	}
 
 }
 
