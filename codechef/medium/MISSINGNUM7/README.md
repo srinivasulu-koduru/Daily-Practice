@@ -52,18 +52,23 @@ Output
 
 ## Solution
 
-**Language:** c_cpp  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-02T14:45:04.501Z  
+**Submitted:** 2026-09-02T14:46:54.498Z  
 
-```c_cpp
-#include <bits/stdc++.h>
-using namespace std;
+```java
+import java.util.*;
+import java.lang.*;
+import java.io.*;
 
-int main() {
-	// your code goes here
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
 
+	}
 }
 
 ```
