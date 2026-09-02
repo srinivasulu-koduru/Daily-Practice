@@ -1,7 +1,10 @@
-#include <bits/stdc++.h>
-using namespace std;
+#include <stdio.h>
 
 int main() {
 	// your code goes here
+	int s;
+	scanf("%d",&s);
+	printf("%d",10-s);
 
 }
+
