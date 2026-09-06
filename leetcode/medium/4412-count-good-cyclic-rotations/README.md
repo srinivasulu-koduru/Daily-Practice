@@ -70,8 +70,8 @@ No cyclic rotation is good because the two sums are equal for every rotation. Th
 
 **Language:** Java  
 **Runtime:** 3 ms (beats 100.00%)  
-**Memory:** 71.6 MB (beats 100.00%)  
-**Submitted:** 2026-09-06T03:19:16.975Z  
+**Memory:** 71.7 MB (beats 100.00%)  
+**Submitted:** 2026-09-06T03:19:49.525Z  
 
 ```java
 class Solution {
