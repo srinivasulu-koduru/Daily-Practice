@@ -44,16 +44,15 @@ All numbers from 1 to 998 have fewer than four digits. Therefore, no commas are 
 ## Solution
 
 **Language:** Java  
-**Runtime:** 1 ms (beats 83.65%)  
-**Memory:** 42.9 MB (beats 8.32%)  
-**Submitted:** 2026-09-08T04:24:11.882Z  
+**Runtime:** 0 ms  
+**Memory:** 41.5 MB  
+**Submitted:** 2026-09-08T04:25:04.251Z  
 
 ```java
 class Solution {
     public int countCommas(int n) {
         if(n<1000)
          return 0;
-        else
             return n-999;
        
     }
