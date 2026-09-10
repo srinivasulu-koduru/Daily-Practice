@@ -44,9 +44,9 @@ The numbers `"1,000"`, `"1,001"`, and `"1,002"` each contain one comma, giving a
 ## Solution
 
 **Language:** Java  
-**Runtime:** 1 ms (beats 99.36%)  
-**Memory:** 42.5 MB (beats 71.15%)  
-**Submitted:** 2026-09-09T09:52:41.875Z  
+**Runtime:** 1 ms (beats 99.24%)  
+**Memory:** 42.7 MB (beats 53.61%)  
+**Submitted:** 2026-09-10T18:06:36.307Z  
 
 ```java
 class Solution {
