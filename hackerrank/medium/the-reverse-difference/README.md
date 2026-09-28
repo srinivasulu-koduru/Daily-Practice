@@ -45,7 +45,7 @@ Print a single integer representing the sum of the digits of the absolute differ
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-28T09:16:37.924Z  
+**Submitted:** 2026-09-28T09:16:39.970Z  
 
 ```java
 import java.io.*;
