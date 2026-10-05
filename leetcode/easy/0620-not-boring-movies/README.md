@@ -60,9 +60,9 @@ We have three movies with odd-numbered IDs: 1, 3, and 5. The movie with ID = 3 i
 ## Solution
 
 **Language:** SQL  
-**Runtime:** 283 ms (beats 55.83%)  
-**Memory:** 0B (beats 100.00%)  
-**Submitted:** 2026-10-05T07:08:59.020Z  
+**Runtime:** 93 ms  
+**Memory:** 0B  
+**Submitted:** 2026-10-05T07:08:53.376Z  
 
 ```sql
 # Write your MySQL query statement below
